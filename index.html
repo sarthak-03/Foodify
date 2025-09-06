@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodify</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <header>
+        <header style="background: var(--green); padding: 1rem 0; border-bottom: 3px solid #f5f3ed;">
+            <div class="container"
+                style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+                <h1 style="color: white; font-size: 1.5rem; margin: 0;">Foodify</h1>
+                <nav>
+                    <ul
+                        style="display: flex; gap: 1.5rem; list-style: none; margin: 0; padding: 0; color: white; font-weight: 600;">
+                        <li><a href="#" style="color: white; text-decoration: none;">Home</a></li>
+                        <li><a href="#" style="color: white; text-decoration: none;">About</a></li>
+                        <li><a href="#" style="color: white; text-decoration: none;">Menu</a></li>
+                        <li><a href="#" style="color: white; text-decoration: none;">Blog</a></li>
+                        <li><a href="#" style="color: white; text-decoration: none;">Contact</a></li>
+                    </ul>
+                </nav>
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                    <button style="background: none; border: none; cursor: pointer;">
+                        <img src="images/search.png" alt="Search Icon" style="width: 24px; height: 24px;" />
+                    </button>
+                    <button style="background: none; border: none; cursor: pointer;">
+                        <img src="images/cart.png" alt="Search Icon" style="width: 24px; height: 24px;" />
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <section style="background: var(--green); padding: 3rem 0;">
+            <div class="container"
+                style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 2rem;">
+
+                <div style="flex: 1 1 400px; color: white;">
+                    <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Authentic Home<br />food in India</h2>
+                    <p style="margin-bottom: 2rem;">Foodify is a courier service in which authentic home cooked food is
+                        delivered to a customer.</p>
+                    <form
+                        style="display: flex; max-width: 400px; background: white; border-radius: 8px; overflow: hidden;">
+                        <input type="text" placeholder="Search food you love"
+                            style="flex: 1; padding: 0.75rem 1rem; border: none; outline: none; font-size: 1rem;" />
+                        <button type="submit"
+                            style="background: #f3ba00; color: #000; font-weight: bold; border: none; padding: 0.75rem 1.25rem; cursor: pointer;">Search</button>
+                    </form>
+                </div>
+
+                <div style="flex: 1 1 300px; text-align: center;">
+                    <img src="images/chef.png" alt="Chef Illustration" style="max-width: 100%; height: auto;" />
+                </div>
+            </div>
+        </section>
+
+    </header>
+
+    <section class="section">
+        <h1>Home Kitchen</h1>
+        <div class="grid">
+            <div class="card">
+                <img src="images/dish1.png" alt="Dish 1" />
+                <div class="card-content">
+                    <h3>Home Made Pizza</h3>
+                    <p>Creamy and rich curry.</p>
+                    <div class="price">₹250</div>
+                    <div class="details-row">
+                        <div class="rating">
+                            <span class="star">&#9733;</span> 4.5
+                        </div>
+                        <div class="delivery-time">40-60 min</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/dish2.png" alt="Dish 2" />
+                <div class="card-content">
+                    <h3>Home Made Pizza</h3>
+                    <p>Grilled paneer skewers.</p>
+                    <div class="price">₹200</div>
+                    <div class="details-row">
+                        <div class="rating">
+                            <span class="star">&#9733;</span> 4.7
+                        </div>
+                        <div class="delivery-time">45-50 min</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/dish3.png" alt="Dish 3" />
+                <div class="card-content">
+                    <h3>Home Made Pizza</h3>
+                    <p>Spiced rice with vegetables.</p>
+                    <div class="price">₹180</div>
+                    <div class="details-row">
+                        <div class="rating">
+                            <span class="star">&#9733;</span> 4.9
+                        </div>
+                        <div class="delivery-time">40-60 min</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/dish4.png" alt="Dish 4" />
+                <div class="card-content">
+                    <h3>Home Made Pizza</h3>
+                    <p>Cheesy and indulgent delight.</p>
+                    <div class="price">₹120</div>
+                    <div class="details-row">
+                        <div class="rating">
+                            <span class="star">&#9733;</span> 4.9
+                        </div>
+                        <div class="delivery-time">40-50 min</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/dish5.png" alt="Dish 5" />
+                <div class="card-content">
+                    <h3>Home Made Pizza</h3>
+                    <p>Smoky and savory bliss.</p>
+                    <div class="price">₹120</div>
+                    <div class="details-row">
+                        <div class="rating">
+                            <span class="star">&#9733;</span> 4.6
+                        </div>
+                        <div class="delivery-time">30-40 min</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/dish6.png" alt="Dish 6" />
+                <div class="card-content">
+                    <h3>Home Made Pizza</h3>
+                    <p>Fresh and herby burst.</p>
+                    <div class="price">₹120</div>
+                    <div class="details-row">
+                        <div class="rating">
+                            <span class="star">&#9733;</span> 4.8
+                        </div>
+                        <div class="delivery-time">40-50 min</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/dish7.png" alt="Dish 7" />
+                <div class="card-content">
+                    <h3>Home Made Pizza</h3>
+                    <p>Bold and garlicky punch.</p>
+                    <div class="price">₹120</div>
+                    <div class="details-row">
+                        <div class="rating">
+                            <span class="star">&#9733;</span> 4.9
+                        </div>
+                        <div class="delivery-time">40-60 min</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/dish8.png" alt="Dish 8" />
+                <div class="card-content">
+                    <h3>Home Made Pizza</h3>
+                    <p>Crisp and cheesy perfection.</p>
+                    <div class="price">₹120</div>
+                    <div class="details-row">
+                        <div class="rating">
+                            <span class="star">&#9733;</span> 4.9
+                        </div>
+                        <div class="delivery-time">40-45 min</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/dish9.png" alt="Dish 9" />
+                <div class="card-content">
+                    <h3>Home Made Pizza</h3>
+                    <p>Juicy and flavorful slice.</p>
+                    <div class="price">₹120</div>
+                    <div class="details-row">
+                        <div class="rating">
+                            <span class="star">&#9733;</span> 4.7
+                        </div>
+                        <div class="delivery-time">40-50 min</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/dish10.png" alt="Dish 10" />
+                <div class="card-content">
+                    <h3>Home Made Pizza</h3>
+                    <p>Fiery and peppery heat.</p>
+                    <div class="price">₹120</div>
+                    <div class="details-row">
+                        <div class="rating">
+                            <span class="star">&#9733;</span> 4.8
+                        </div>
+                        <div class="delivery-time">50-60 min</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/dish11.png" alt="Dish 11" />
+                <div class="card-content">
+                    <h3>Home Made Pizza</h3>
+                    <p>Rich and umami-packed.</p>
+                    <div class="price">₹120</div>
+                    <div class="details-row">
+                        <div class="rating">
+                            <span class="star">&#9733;</span> 4.5
+                        </div>
+                        <div class="delivery-time">40-60 min</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/dish12.png" alt="Dish 12" />
+                <div class="card-content">
+                    <h3>Home Made Pizza</h3>
+                    <p>Tangy and basil-infused.</p>
+                    <div class="price">₹120</div>
+                    <div class="details-row">
+                        <div class="rating">
+                            <span class="star">&#9733;</span> 4.8
+                        </div>
+                        <div class="delivery-time">40-50 min</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section popular-items-section">
+        <h2>Popular Items</h2>
+        <div class="slider-wrapper">
+            <div class="nav-buttons-left">
+                <button id="prev">&#10094;</button>
+            </div>
+            <div class="slider" id="slider">
+
+                <div class="slide">
+                    <span class="discount-badge"></span> <img src="images/popular1.png" alt="Home made pizza" />
+                    <div class="slide-content">
+                        <div class="name-price-row">
+                            <h3>Home made pizza</h3>
+                            <div class="price">₹190</div>
+                        </div>
+                        <div class="details-row">
+                            <div class="rating">
+                                <span class="star">&#9733;</span> 4.7
+                            </div>
+                            <div class="delivery-time">30-79 min</div>
+                        </div>
+                        <button class="add-to-cart-large">
+                            <img src="images/plus.png" alt="Add to cart" />
+                        </button>
+                    </div>
+                </div>
+                <div class="slide">
+                    <span class="discount-badge">20%</span>
+                    <img src="images/popular2.png" alt="Tandoori Chicken" />
+                    <div class="slide-content">
+                        <div class="name-price-row">
+                            <h3>Tandoori Chicken</h3>
+                            <div class="price">₹184</div>
+                        </div>
+                        <div class="details-row">
+                            <div class="rating">
+                                <span class="star">&#9733;</span> 4.3
+                            </div>
+                            <div class="delivery-time">15-29 min</div>
+                        </div>
+                        <button class="add-to-cart-large">
+                            <img src="images/plus.png" alt="Add to cart" />
+                        </button>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <span class="discount-badge">50%</span>
+                    <img src="images/popular3.png" alt="Chilli Chicken" />
+                    <div class="slide-content">
+                        <div class="name-price-row">
+                            <h3>Chilli Chicken</h3>
+                            <div class="price">₹116</div>
+                        </div>
+                        <div class="details-row">
+                            <div class="rating">
+                                <span class="star">&#9733;</span> 4.1
+                            </div>
+                            <div class="delivery-time">30-40 min</div>
+                        </div>
+                        <button class="add-to-cart-large">
+                            <img src="images/plus.png" alt="Add to cart" />
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="nav-buttons-right">
+                <button id="next">&#10095;</button>
+            </div>
+        </div>
+        <div class="request-button-container">
+            <button class="btn request-dish-btn" id="requestDishBtn">Request a Dish</button>
+        </div>
+    </section>
+
+    <section class="video-section-wrapper">
+        <div class="section video-content-container">
+            <h2>We are providing best<br>home cooked food delivery service.</h2>
+            <p class="video-description">Away from home and craving the tasty homemade recipes?<br>Choose from a
+                selection of our delicious home cooked dishes</p>
+            <div class="video-player-container">
+                <video id="homeCookVideo" poster="images/video_cover.png">
+                    <source src="https://videos.pexels.com/video-files/2620043/2620043-uhd_2560_1440_25fps.mp4"
+                        type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+                <div class="custom-play-button">
+                    <img src="images/arrow.png" alt="Play Video">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-form">
+                <h3>Do you have a question <br> or want to become a seller?</h3>
+                <p>Fill this form and our manager will contact you next 48 hours.</p>
+                <form>
+                    <input type="text" placeholder="Your Name" required />
+                    <input type="email" placeholder="Your e-mail" required />
+                    <textarea placeholder="Your message" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="contact-image">
+                <img src="images/cute_delivery_boy.png" alt="Delivery Image" />
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-left">
+            <h2>Foodify</h2>
+        </div>
+        <div class="footer-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Menu</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="footer-social">
+            <a href="#"><img src="images/fb.png" alt="images/Facebook" /></a>
+            <a href="#"><img src="images/insta.png" alt="images/Instagram" /></a>
+        </div>
+    </footer>
+
+    <div id="requestDishModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Request a Custom Dish</h2>
+            <p>Tell us what you'd like to eat, and we'll see if our home cooks can whip it up for you!</p>
+            <form class="request-form">
+                <label for="dishName">Dish Name:</label>
+                <input type="text" id="dishName" name="dishName" placeholder="e.g., Authentic Punjabi Rajma" required>
+
+                <label for="ingredients">Key Ingredients (optional):</label>
+                <textarea id="ingredients" name="ingredients" rows="3"
+                    placeholder="e.g., Fresh kidney beans, specific spices..."></textarea>
+
+                <label for="dietaryNotes">Dietary Notes (optional):</label>
+                <textarea id="dietaryNotes" name="dietaryNotes" rows="3"
+                    placeholder="e.g., Gluten-free, less spicy, no onion/garlic"></textarea>
+
+                <label for="contactEmail">Your Email:</label>
+                <input type="email" id="contactEmail" name="contactEmail" placeholder="your.email@example.com" required>
+
+                <div class="modal-buttons">
+                    <button type="button" class="btn secondary-btn" id="cancelRequest">Cancel</button>
+                    <button type="submit" class="btn primary-btn" id="submitRequest">Submit Request</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script>
+        const slider = document.getElementById('slider');
+        const prev = document.getElementById('prev');
+        const next = document.getElementById('next');
+        let index = 0;
+        const slides = slider.children;
+        let autoSlideInterval;
+
+        function updateSlider() {
+            if (slides.length > 0) {
+                const slideWidth = slides[0].offsetWidth;
+                const gap = parseFloat(getComputedStyle(slider).gap);
+                slider.style.transform = `translateX(-${index * (slideWidth + gap)}px)`;
+            }
+        }
+
+
+        function goToNextSlide() {
+            if (index < slides.length - 1) {
+                index++;
+            } else {
+                index = 0;
+            }
+            updateSlider();
+        }
+
+
+        function startAutoSlide() {
+
+            clearInterval(autoSlideInterval);
+            autoSlideInterval = setInterval(goToNextSlide, 5000);
+        }
+
+
+        function stopAutoSlide() {
+            clearInterval(autoSlideInterval);
+        }
+
+
+        next.addEventListener('click', () => {
+            goToNextSlide();
+            stopAutoSlide();
+            startAutoSlide();
+        });
+
+        prev.addEventListener('click', () => {
+            if (index > 0) {
+                index--;
+            } else {
+                index = slides.length - 1;
+            }
+            updateSlider();
+            stopAutoSlide();
+            startAutoSlide();
+        });
+
+
+        window.addEventListener('load', () => {
+            updateSlider();
+            startAutoSlide();
+        });
+
+        window.addEventListener('resize', updateSlider);
+
+        document.querySelectorAll('.quantity-add').forEach(control => {
+            const minusBtn = control.querySelector('.minus');
+            const plusBtn = control.querySelector('.plus');
+            const quantitySpan = control.querySelector('.quantity-control span');
+
+            minusBtn.addEventListener('click', () => {
+                let currentQuantity = parseInt(quantitySpan.textContent);
+                if (currentQuantity > 1) {
+                    quantitySpan.textContent = currentQuantity - 1;
+                }
+            });
+
+            plusBtn.addEventListener('click', () => {
+                let currentQuantity = parseInt(quantitySpan.textContent);
+                quantitySpan.textContent = currentQuantity + 1;
+            });
+        });
+
+
+
+        const video = document.getElementById('homeCookVideo');
+        const customPlayButton = document.querySelector('.custom-play-button');
+        const videoContainer = document.querySelector('.video-player-container');
+
+        function updateVideoUI() {
+            if (video.paused || video.ended) {
+                customPlayButton.style.display = 'flex';
+                videoContainer.classList.remove('playing');
+                video.removeAttribute('controls');
+            } else {
+                customPlayButton.style.display = 'none';
+                videoContainer.classList.add('playing');
+                video.setAttribute('controls', 'controls');
+            }
+        }
+
+        window.addEventListener('load', updateVideoUI);
+        video.addEventListener('loadedmetadata', updateVideoUI);
+
+
+        customPlayButton.addEventListener('click', () => {
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        });
+
+        video.addEventListener('play', updateVideoUI);
+        video.addEventListener('pause', updateVideoUI);
+        video.addEventListener('ended', () => {
+            video.currentTime = 0;
+            updateVideoUI();
+        });
+
+        video.addEventListener('playing', updateVideoUI);
+
+        videoContainer.addEventListener('mouseenter', () => {
+            if (!video.paused && !video.ended) {
+                video.setAttribute('controls', 'controls');
+            }
+        });
+
+        videoContainer.addEventListener('mouseleave', () => {
+            if (!video.paused && !video.ended) {
+
+            }
+        });
+
+
+        const requestDishBtn = document.getElementById('requestDishBtn');
+        const requestDishModal = document.getElementById('requestDishModal');
+        const closeButton = document.querySelector('#requestDishModal .close-button');
+        const cancelRequestBtn = document.getElementById('cancelRequest');
+        const submitRequestBtn = document.getElementById('submitRequest');
+        const body = document.body;
+
+        function openModal() {
+            requestDishModal.style.display = 'flex';
+            body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            requestDishModal.style.display = 'none';
+            body.style.overflow = '';
+            document.querySelector('.request-form').reset();
+        }
+
+
+        if (requestDishBtn) {
+            requestDishBtn.addEventListener('click', openModal);
+        }
+        closeButton.addEventListener('click', closeModal);
+        cancelRequestBtn.addEventListener('click', closeModal);
+
+        submitRequestBtn.addEventListener('click', (event) => {
+            event.preventDefault();
+            const dishName = document.getElementById('dishName');
+            const contactEmail = document.getElementById('contactEmail');
+
+            if (dishName.value.trim() === '' || contactEmail.value.trim() === '') {
+                alert('Please fill in Dish Name and Your Email before submitting.');
+                return;
+            }
+
+            closeModal();
+            alert('Your dish request has been submitted!');
+        });
+
+        window.addEventListener('click', (event) => {
+            if (event.target === requestDishModal) {
+                closeModal();
+            }
+        });
+    </script>
